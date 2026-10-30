@@ -1,1 +1,8 @@
+<<<<<<< HEAD
+
+Danilo Rodriguez
+192.168.1.34
+12:10
+=======
 Agustina Sánchez - 192.168.1.11 - 11:55am
+>>>>>>> 2ec9d5ceab463871a77cb0f58078511b52eea055

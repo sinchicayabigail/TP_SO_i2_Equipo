@@ -6,3 +6,36 @@ a - Dentro del repositorio que creamos, aparece cuando el repositorio original t
 b - De manera directa no es posible, ya que para hacerlo tendríamos que hacer un fork nuevamente sobre el repositorio de Gamma
 c - De manera directa no es posible, ya que para hacerlo tendriamos que hacer un fork nuevamente sobre el repositorio de Alfa
 d - No, los datos permanecen en mi repositorio
+e- Listado paso a paso de los comandos utilizados:
+
+BETA (Sinchicay, Abigail):
+1. cd ~/OneDrive/Desktop/TP_SO
+2. git clone https://github.com/sinchicayabigail/TP_SO_i2_Equipo.git
+3. cd TP_SO_i2_Equipo
+4. git status
+5. git add NuevoDato.txt
+6. git commit -m "BETA agrega NuevoDato.txt"
+7. git push
+
+GAMMA (Sanchez, Agustina):
+1. git clone https://github.com/agustinasanchez1/TP_SO_i2_Equipo.git
+2. cd TP_SO_i2_Equipo
+3. git add .
+4. git commit -m "mensaje"
+5. git push
+
+ALFA (Rodriguez, Danilo):
+1. git clone https://github.com/rdaniloagustin-eng/TP_SO_i2_Equipo.git
+2. cd TP_SO_i2_Equipo
+3. ipconfig
+4. echo -e "Danilo Rodriguez\n192.168.1.34\n12:10" >> fork.txt
+5. cat fork.txt
+6. git add fork.txt
+7. git commit -m "ALFA: Agrega datos de conexion"
+8. git push origin main
+9. git remote add upstream https://github.com/sinchicayabigail/TP_SO_i2_Equipo.git
+10. git fetch upstream
+11. git merge upstream/main
+12. git push origin main
+13. git pull https://github.com/sinchicayabigail/TP_SO_i2_Equipo.git
+ 
